@@ -4,7 +4,7 @@
 # Docker Hub - http://hub.docker.com/u/dalekurt/storm-nimbus
 # Twitter - http://www.twitter.com/dalekurt
 
-FROM aviata/storm
+FROM aviata/storm-2
 
 MAINTAINER jmarsh.ext@aviatainc.com "jmarsh.ext@aviatainc.com"
 
