@@ -4,9 +4,9 @@
 # Docker Hub - http://hub.docker.com/u/dalekurt/storm-nimbus
 # Twitter - http://www.twitter.com/dalekurt
 
-FROM dalekurt/storm
+FROM aviata/storm
 
-MAINTAINER Dale-Kurt Murray "dalekurt.murray@gmail.com"
+MAINTAINER jmarsh.ext@aviatainc.com "jmarsh.ext@aviatainc.com"
 
 RUN /usr/bin/config-supervisord.sh nimbus 
 RUN /usr/bin/config-supervisord.sh drpc
