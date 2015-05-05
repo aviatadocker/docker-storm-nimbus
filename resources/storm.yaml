@@ -1,0 +1,15 @@
+storm.zookeeper.servers:
+    - "zookeeper"
+nimbus.host: "nimbus"
+drpc.servers:
+  - "nimbus"
+drpc.port: 3772
+drpc.invocations.port: 3773
+nimbus.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
+ui.childopts: "-Xmx768m -Djava.net.preferIPv4Stack=true"
+supervisor.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
+worker.childopts: "-Xmx1024m -Djava.net.preferIPv4Stack=true"
+storm.messaging.netty.max_wait_ms: 10000
+storm.messaging.netty.max_retries: 100
+storm.messaging.netty.buffer_size: 1000000
+storm.local.hostname: nimbus
