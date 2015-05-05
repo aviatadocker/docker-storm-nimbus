@@ -1,4 +1,4 @@
 # Docker Apache Storm Nimbus
 
 ## Dependencies
-[dalekurt/storm](https://registry.hub.docker.com/u/dalekurt/storm/)
+[aviata/storm-2](https://registry.hub.docker.com/u/aviata/storm-2)
