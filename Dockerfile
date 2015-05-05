@@ -15,6 +15,8 @@ EXPOSE 6627
 EXPOSE 3772
 EXPOSE 3773
 
-ADD scripts/start-supervisor.sh /usr/bin/start-supervisor.sh
+COPY scripts/start-supervisor.sh /usr/bin/start-supervisor.sh
+COPY resources/storm.yaml /tmp/storm.yaml
+RUN cp /tmp/storm.yaml $STORM_HOME/conf/storm.yaml
 
 CMD /usr/bin/start-supervisor.sh
